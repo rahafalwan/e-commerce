@@ -1,0 +1,305 @@
+body{
+    background-size: cover;
+  
+    background-color: black;
+}
+.navbar
+{
+    background-color: transparent;
+}
+
+.nav-link {
+    color: white;  
+    }
+.nav-link:hover {
+    color: #fa7f14;
+    }
+   
+    .nav-link.active {
+   color:  #fa7f14 !important;
+   
+  }
+  
+  .navbar-text
+  {
+    color:  #fa7f14 !important;
+  }
+ .bg-about{
+    background-color: #f7ca4d;
+ }
+ #map {
+    width: "100%";
+    height: 400px;
+}
+.fa-facebook {
+    background: transparent;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background:transparent;
+    color: white;
+  }
+  .fa-instagram {
+    background:transparent;
+    color: white;
+  }
+  .fa-youtube {
+    background:transparent;
+    color: white;
+  }
+  .fa {
+   
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .btn {
+   
+    color: white; /* White text */
+    
+    font-size: 20px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    height: 50px;
+    border-radius: 25;
+  }
+  .card
+  {
+    border-color: transparent;
+  }
+  .product_quantity
+  {
+    background-color: white;
+    border: 1px solid #dddddd;
+     color: black;
+     text-align: center;
+     height: 25pt;
+     width:30pt;
+    
+  }
+  .plus-min
+  {
+    background-color: transparent;
+    
+     border: 1px solid #dddddd;
+     color: white;
+     text-align: center;
+     font-size: large;
+     height: 25pt;
+     width:30pt;
+     margin-left: -4pt;
+     margin-right: -4pt;
+  }
+  .btnAddAction
+  {
+    background-color:transparent;
+    border-color: #f7ca4d;
+    margin-left: 10pt;
+    color: white;
+    width: 120pt;
+    height: 30pt;
+    border-radius: 5pt;
+   
+  }
+  .btnsubmit
+  {
+    background-color:#f7ca4d;
+   
+    color:white;
+    width: 120pt;
+    height: 30pt;
+    border-radius: 5pt;
+  }
+  .btnAddAction:hover {
+    background-color: #f7ca4d;
+    }
+    .form-reviews {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+    }
+    .form-email {
+        width: 100%;
+       
+        padding: 5px 10px;
+        margin: 8px 0;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+       
+    }
+    .rating-box {
+        position: relative;
+        background:transparent;
+        margin-bottom: 10pt;
+        
+      }
+      .rating-box header {
+        font-size: 14px;
+        color:white;
+        margin-bottom: 5pt;
+       
+       
+      }
+      .rating-box .stars {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .stars i {
+        color: #e6e6e6;
+        font-size: 20px;
+        cursor: pointer;
+        transition: color 0.2s ease;
+      }
+      .stars i.active {
+        color: #ff9c1a;
+      }
+      .checked {
+        color: orange;
+      }
+      .rate {
+        float: left;
+        height: 46px;
+        padding: 0 10px;
+        }
+        .rate:not(:checked) > input {
+        position:absolute;
+        display: none;
+        }
+        .rate:not(:checked) > label {
+        float:right;
+        width:1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:30px;
+        color:#ccc;
+        }
+        .rated:not(:checked) > label {
+        float:right;
+        width:1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:30px;
+        color:#ccc;
+        }
+        .rate:not(:checked) > label:before {
+        content: '★ ';
+        }
+        .rate > input:checked ~ label {
+        color: #ffc700;
+        }
+        .rate:not(:checked) > label:hover,
+        .rate:not(:checked) > label:hover ~ label {
+        color: #deb217;
+        }
+        .rate > input:checked + label:hover,
+        .rate > input:checked + label:hover ~ label,
+        .rate > input:checked ~ label:hover,
+        .rate > input:checked ~ label:hover ~ label,
+        .rate > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+        }
+        .star-rating-complete{
+           color: #c59b08;
+        }
+        .rating-container .form-control:hover, .rating-container .form-control:focus{
+        background: #fff;
+        border: 1px solid #ced4da;
+        }
+        .rating-container textarea:focus, .rating-container input:focus {
+        color: #000;
+        }
+        .rated {
+        float: left;
+        height: 46px;
+        padding: 0 10px;
+        }
+        .rated:not(:checked) > input {
+        position:absolute;
+        display: none;
+        }
+        .rated:not(:checked) > label {
+        float:right;
+        width:1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:30px;
+        color:#ffc700;
+        }
+        .rated:not(:checked) > label:before {
+        content: '★ ';
+        }
+        .rated > input:checked ~ label {
+        color: #ffc700;
+        }
+        .rated:not(:checked) > label:hover,
+        .rated:not(:checked) > label:hover ~ label {
+        color: #deb217;
+        }
+        .rated > input:checked + label:hover,
+        .rated > input:checked + label:hover ~ label,
+        .rated > input:checked ~ label:hover,
+        .rated > input:checked ~ label:hover ~ label,
+        .rated > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+        }
+        table {
+            font-family: arial, sans-serif;
+            border: 1px solid #dddddd;
+            width: 100%;
+           
+          }
+          tr{
+            border: 1px solid gray;
+            height: 50pt;
+          }
+         .tbr
+          {
+           
+            border-bottom: 0.5px  lightgrey;
+           border-bottom-style:dashed;
+          }
+          
+          td, th {
+            
+            text-align: center;
+            padding-bottom: 5pt;
+            padding-top: 5pt;
+           
+          }
+          th {
+            background-color: #141516;
+            opacity: 30%;
+            
+            
+            
+            
+          }
+         .base_bg
+         {
+            background-color: #141516;
+         }
+         table thead th { color: white; }
+         .fa-btn {
+            margin-right: 6px;
+        }
+        .fa-shopping-cart
+        {
+          color: #fa7f14;  
+        }
